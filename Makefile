@@ -18,7 +18,9 @@ OPT = s
 
 SRC = $(TARGET).c \
       twimaster.c \
-      myADC.c
+      myADC.c \
+      myOLED.c \
+      myFont.c
 
 # List Assembler source files here.
 # Make them always end in a capital .S.  Files ending in a lowercase .s
